@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'zeleris/ruby/version'
+require 'zeleris/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "zeleris-ruby"
-  spec.version       = Zeleris::Ruby::VERSION
+  spec.name          = "zeleris"
+  spec.version       = Zeleris::VERSION
   spec.authors       = ["alexperezpaya"]
   spec.email         = ["alejandro@perezpaya.net"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Zeleris}
+  spec.description   = %q{Interaction with Zeleris XML API}
+  spec.homepage      = "https://github.com/alexperezpaya/zeleris-ruby"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
