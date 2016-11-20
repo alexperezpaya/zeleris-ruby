@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BODY>
+  <INFOCUENTA>
+    <USUARIO />
+    <CLAVE />
+    <FECHA />
+  </INFOCUENTA>
+  <DOCUMENTO>
+    <REGISTRO>
+      <CABECERA>
+        <ID_CLIENTE />
+        <ID_TIPO_DOCUMENTO />
+        <NUMERO_DOCUMENTO />
+        <FECHA_DOCUMENTO />
+        <FECHA_SERVICIO />
+        <ID_TIPO_SERVICIO />
+        <ID_TIPO_PORTE />
+        <REEMBOLSO_SN>N</REEMBOLSO_SN>
+        <TOTAL_REEMBOLSO />
+        <VALOR_DECLARADO_SN>N</VALOR_DECLARADO_SN>
+        <TOTAL_VALOR_DECLARADO />
+        <ID_SOLICITANTE />
+        <NOMBRE_SOL />
+        <CONTACTO_SOL />
+        <NIF_SOL />
+        <DIRECCION_SOL />
+        <POBLACION_SOL />
+        <PROVINCIA_SOL />
+        <COD_POSTAL_SOL />
+        <ID_CONSIGNATARIO />
+        <NOMBRE_CONS />
+        <CONTACTO_CONS />
+        <NIF_CONS />
+        <DIRECCION_CONS />
+        <POBLACION_CONS>Madrid</POBLACION_CONS>
+        <PROVINCIA_CONS>Madrid</PROVINCIA_CONS>
+        <CODIGO_POSTAL_CONS />
+        <PAIS_CONS>ES</PAIS_CONS>
+        <TELEFONO_CONS />
+        <EMAIL_CONS />
+        <ID_ALMACEN />
+        <OBSERVACIONES />
+        <DESCRIPCION_ADUANA />
+        <TOTAL_VALOR_ADUANA />
+        <GASTOS_ADUANA />
+        <TOTAL_BULTOS />
+        <PESO_CLIENTE />
+        <CAMPO1 />
+        <CAMPO2 />
+        <CAMPO3 />
+        <CAMPO4 />
+        <CAMPO5 />
+        <NUMERO_PEDIDO_PROVEEDOR />
+      </CABECERA>
+      <LINEA>
+        <ID_CLIENTE />
+        <COD_ARTICULO />
+        <ID_ESTADO_PRODUCTO />
+        <ID_ESTADO_QC />
+        <ID_PROPIETARIO />
+        <NUMERO_LOTE />
+        <CANTIDAD>1</CANTIDAD>
+        <CAMPO1 />
+        <CAMPO2 />
+        <CAMPO3 />
+        <CAMPO4 />
+        <CAMPO5 />
+      </LINEA>
+      <LINEA>
+        <ID_CLIENTE />
+        <COD_ARTICULO />
+        <ID_ESTADO_PRODUCTO />
+        <ID_ESTADO_QC />
+        <ID_PROPIETARIO />
+        <NUMERO_LOTE />
+        <CANTIDAD>1</CANTIDAD>
+        <CAMPO1 />
+        <CAMPO2 />
+        <CAMPO3 />
+        <CAMPO4 />
+        <CAMPO5 />
+      </LINEA>
+    </REGISTRO>
+  </DOCUMENTO>
+</BODY>
