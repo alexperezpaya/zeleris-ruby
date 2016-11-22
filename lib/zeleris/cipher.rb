@@ -1,9 +1,9 @@
 require 'digest'
 
 module Zeleris
-  module Cipher
-    DATE_FORMAT = '%Y%m%d%l%M%S'
+  DATE_FORMAT = '%Y%m%d%l%M%S'
 
+  module Cipher
     extend self
 
     def encode_signature(user, secret, datetime)

@@ -9,7 +9,7 @@ module Zeleris
 
     def create_xml_order(xml)
       c = client_for('EnvioPedido')
-      c.call(:order_pedido_xml, message: xml).body
+      c.call(:order_pedido_xml, xml: xml).body
     end
 
     private
